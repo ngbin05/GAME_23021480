@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1709281790 source:c:\laptrinhc++\test2\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"def.h"
+	"graphics.h"
+
+1709281878 c:\laptrinhc++\test2\def.h
+
+1709280850 c:\laptrinhc++\test2\graphics.h
+	<SDL.h>
+	<SDL_image.h>
+	"def.h"
+
+1710236726 source:c:\test2\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"def.h"
+	"graphics.h"
+
+1709281878 c:\test2\def.h
+
+1710236726 c:\test2\graphics.h
+	<SDL.h>
+	<SDL_image.h>
+	"def.h"
+
+1710873435 source:c:\users\nguyen binh\code\test2\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"def.h"
+	"graphics.h"
+
+1709281878 c:\users\nguyen binh\code\test2\def.h
+
+1710871631 c:\users\nguyen binh\code\test2\graphics.h
+	<SDL.h>
+	<SDL_image.h>
+	"def.h"
+

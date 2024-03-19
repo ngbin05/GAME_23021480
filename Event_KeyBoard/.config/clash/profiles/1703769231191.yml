@@ -1,0 +1,64 @@
+mixed-port: 7890
+allow-lan: true
+bind-address: '*'
+mode: rule
+unified-delay: true
+log-level: info
+external-controller: '127.0.0.1:9090'
+dns:
+    enable: true
+    listen: '127.0.0.1:35353'
+    default-nameserver: [223.5.5.5, 1.1.1.1, 1.0.0.1]
+    enhanced-mode: fake-ip
+    fake-ip-range: 198.18.0.1/16
+    use-hosts: true
+    nameserver: [8.8.8.8, 1.1.1.1, 8.8.4.4, 1.0.0.1]
+    fallback: [119.29.29.29, 223.5.5.5, 'https://dns.rubyfish.cn/dns-query', 'tls://8.8.4.4', 'tls://1.0.0.1:853', 'https://cloudflare-dns.com/dns-query', 'https://dns.google/dns-query']
+    fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
+proxies:
+    - { name: '🇻🇳viefast Basic VN (32)', type: trojan, server: 203.145.47.185, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇻🇳viefast Basic VN (33)', type: trojan, server: 203.145.47.186, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇻🇳viefast Basic VN (34)', type: trojan, server: 203.145.47.187, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇻🇳viefast Basic VN (35)', type: trojan, server: 203.145.47.188, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇻🇳viefast Basic VN (36)', type: trojan, server: 203.145.47.192, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇻🇳viefast Basic VN (37)', type: trojan, server: 203.145.47.200, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇻🇳viefast AdBlock VN (53)', type: trojan, server: 203.145.47.82, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇻🇳viefast AdBlock VN (54)', type: trojan, server: 203.145.47.81, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇯🇵viefast Basic JP (01)', type: trojan, server: 167.179.92.216, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇯🇵viefast Basic JP (02)', type: trojan, server: 45.76.221.187, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇯🇵viefast Basic JP (03)', type: trojan, server: 198.13.41.6, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇭🇰viefast Basic HK (01)', type: trojan, server: 103.252.116.10, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇭🇰viefast Basic HK (02)', type: trojan, server: 114.29.236.127, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇸🇬viefast Basic SG (01)', type: trojan, server: 149.28.147.176, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇸🇬viefast Basic SG (02)', type: trojan, server: 139.180.155.46, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇸🇬viefast Basic SG (03)', type: trojan, server: 139.180.186.232, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇸🇬viefast Basic SG (04)', type: trojan, server: 207.148.116.41, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: "🇸🇬v\biefast Basic SG (05)", type: trojan, server: 207.148.121.161, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇸🇬viefast Basic SG (06)', type: trojan, server: 139.180.135.241, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇱🇷viefast Basic US (01)', type: trojan, server: 64.176.214.43, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇬🇧viefast Basic UK (01)', type: trojan, server: 209.250.226.131, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇩🇪viefast Basic DE (01)', type: trojan, server: 45.32.157.30, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇮🇳viefast Basic IN (01)', type: trojan, server: 65.20.71.159, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇰🇷viefast Basic KR (01)', type: trojan, server: 158.247.193.89, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇫🇷viefast Basic FR (01)', type: trojan, server: 136.244.119.32, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+    - { name: '🇨🇦viefast Basic CA (01)', type: trojan, server: 137.220.52.177, port: 443, password: 7fe738ea-7acd-4524-8830-ab12290cf7f8, udp: true, sni: dl.aw.freefiremobile.com, skip-cert-verify: true }
+proxy-groups:
+    - { name: VIEFAST MEMBER, type: select, proxies: ['♻️Cân bằng tải', '🔯Auto đổi máy chủ', '🇻🇳viefast Basic VN (32)', '🇻🇳viefast Basic VN (33)', '🇻🇳viefast Basic VN (34)', '🇻🇳viefast Basic VN (35)', '🇻🇳viefast Basic VN (36)', '🇻🇳viefast Basic VN (37)', '🇻🇳viefast AdBlock VN (53)', '🇻🇳viefast AdBlock VN (54)', '🇯🇵viefast Basic JP (01)', '🇯🇵viefast Basic JP (02)', '🇯🇵viefast Basic JP (03)', '🇭🇰viefast Basic HK (01)', '🇭🇰viefast Basic HK (02)', '🇸🇬viefast Basic SG (01)', '🇸🇬viefast Basic SG (02)', '🇸🇬viefast Basic SG (03)', '🇸🇬viefast Basic SG (04)', "🇸🇬v\biefast Basic SG (05)", '🇸🇬viefast Basic SG (06)', '🇱🇷viefast Basic US (01)', '🇬🇧viefast Basic UK (01)', '🇩🇪viefast Basic DE (01)', '🇮🇳viefast Basic IN (01)', '🇰🇷viefast Basic KR (01)', '🇫🇷viefast Basic FR (01)', '🇨🇦viefast Basic CA (01)'] }
+    - { name: '♻️Cân bằng tải', type: load-balance, proxies: ['🇻🇳viefast Basic VN (32)', '🇻🇳viefast Basic VN (33)', '🇻🇳viefast Basic VN (34)', '🇻🇳viefast Basic VN (35)', '🇻🇳viefast Basic VN (36)', '🇻🇳viefast Basic VN (37)', '🇻🇳viefast AdBlock VN (53)', '🇻🇳viefast AdBlock VN (54)', '🇯🇵viefast Basic JP (01)', '🇯🇵viefast Basic JP (02)', '🇯🇵viefast Basic JP (03)', '🇭🇰viefast Basic HK (01)', '🇭🇰viefast Basic HK (02)', '🇸🇬viefast Basic SG (01)', '🇸🇬viefast Basic SG (02)', '🇸🇬viefast Basic SG (03)', '🇸🇬viefast Basic SG (04)', "🇸🇬v\biefast Basic SG (05)", '🇸🇬viefast Basic SG (06)', '🇱🇷viefast Basic US (01)', '🇬🇧viefast Basic UK (01)', '🇩🇪viefast Basic DE (01)', '🇮🇳viefast Basic IN (01)', '🇰🇷viefast Basic KR (01)', '🇫🇷viefast Basic FR (01)', '🇨🇦viefast Basic CA (01)'], url: 'http://www.gstatic.com/generate_204', interval: 60 }
+    - { name: '🔯Auto đổi máy chủ', type: url-test, proxies: ['🇻🇳viefast Basic VN (32)', '🇻🇳viefast Basic VN (33)', '🇻🇳viefast Basic VN (34)', '🇻🇳viefast Basic VN (35)', '🇻🇳viefast Basic VN (36)', '🇻🇳viefast Basic VN (37)', '🇻🇳viefast AdBlock VN (53)', '🇻🇳viefast AdBlock VN (54)', '🇯🇵viefast Basic JP (01)', '🇯🇵viefast Basic JP (02)', '🇯🇵viefast Basic JP (03)', '🇭🇰viefast Basic HK (01)', '🇭🇰viefast Basic HK (02)', '🇸🇬viefast Basic SG (01)', '🇸🇬viefast Basic SG (02)', '🇸🇬viefast Basic SG (03)', '🇸🇬viefast Basic SG (04)', "🇸🇬v\biefast Basic SG (05)", '🇸🇬viefast Basic SG (06)', '🇱🇷viefast Basic US (01)', '🇬🇧viefast Basic UK (01)', '🇩🇪viefast Basic DE (01)', '🇮🇳viefast Basic IN (01)', '🇰🇷viefast Basic KR (01)', '🇫🇷viefast Basic FR (01)', '🇨🇦viefast Basic CA (01)'], url: 'http://www.gstatic.com/generate_204', interval: 60 }
+rules:
+    - 'DOMAIN-SUFFIX,googlesyndication.com,VIEFAST MEMBER'
+    - 'DOMAIN-SUFFIX,doubleclick.net,REJECT'
+    - 'DOMAIN-SUFFIX,connect.facebook.com,REJECT'
+    - 'DOMAIN-SUFFIX,connect.facebook.net,REJECT'
+    - 'DOMAIN-SUFFIX,socialplugin.facebook.net,REJECT'
+    - 'DOMAIN-SUFFIX,elogs.vnexpress.net,REJECT'
+    - 'DOMAIN-SUFFIX,eva-ad.24hstatic.com,REJECT'
+    - 'DOMAIN-SUFFIX,ezca.asia,REJECT'
+    - 'DOMAIN-SUFFIX,facebook-ads.hara.vn,REJECT'
+    - 'DOMAIN-SUFFIX,facebookinbox-omni-onapp.haravan.com,REJECT'
+    - 'DOMAIN-SUFFIX,youtubecliphot.link,REJECT'
+    - 'DOMAIN-SUFFIX,youtubecliphot.net,REJECT'
+    - 'DOMAIN-SUFFIX,youtubecliphot.org,REJECT'
+    - 'DOMAIN-SUFFIX,youtubecliphot.xyz,REJECT'
+    - 'MATCH,VIEFAST MEMBER'

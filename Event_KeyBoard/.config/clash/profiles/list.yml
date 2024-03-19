@@ -1,0 +1,21 @@
+files:
+  - url: ""
+    time: 1703769229890.yml
+    name: config.yaml
+    selected: []
+  - time: 1703769231191.yml
+    name: VIEFAST MEMBER
+    url: https://my.viefast.vn/api/v1/client/subscribe?token=0e95932b370b910d9e6f2c24c0d4e7de
+    selected:
+      - name: GLOBAL
+        now: 🔯Auto đổi máy chủ
+      - name: VIEFAST MEMBER
+        now: ♻️Cân bằng tải
+    interval: 24
+    subInfo:
+      upload: 1765504243
+      download: 27109224801
+      total: 1073741824000000
+    homeWeb: https://my.viefast.vn
+    mode: global
+index: 1
