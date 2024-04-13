@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1712830215 source:c:\laptrinhc++\event_mouse\main.cpp
+	<bits/stdc++.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"defs.h"
+	"graphic.h"
+
+1712829744 c:\laptrinhc++\event_mouse\defs.h
+
+1712306270 c:\laptrinhc++\event_mouse\graphic.h
+	<SDL.h>
+	<SDL_image.h>
+	"defs.h"
+

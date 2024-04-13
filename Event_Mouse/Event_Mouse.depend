@@ -14,3 +14,18 @@
 	<SDL_image.h>
 	"defs.h"
 
+1710872011 source:c:\users\nguyen binh\documents\github\ltnc_23021480\event_mouse\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"defs.h"
+	"graphic.h"
+
+1710871631 c:\users\nguyen binh\documents\github\ltnc_23021480\event_mouse\defs.h
+
+1710871631 c:\users\nguyen binh\documents\github\ltnc_23021480\event_mouse\graphic.h
+	<SDL.h>
+	<SDL_image.h>
+	"defs.h"
+
