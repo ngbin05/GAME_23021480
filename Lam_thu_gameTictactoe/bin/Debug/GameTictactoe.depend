@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1710231170 source:c:\laptrinhc++\gametictactoe\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"logic.h"
+	"defs.h"
+	"graphic.h"
+
+1710199834 c:\laptrinhc++\gametictactoe\logic.h
+	"defs.h"
+
+1710171531 c:\laptrinhc++\gametictactoe\defs.h
+
+1710231225 c:\laptrinhc++\gametictactoe\graphic.h
+	"logic.h"
+	<SDL.h>
+	<SDL_image.h>
+	"defs.h"
+	<bits/stdc++.h>
+
+1710408384 source:c:\users\nguyen binh\code\gametictactoe\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"logic.h"
+	"defs.h"
+	"graphic.h"
+
+1710199834 c:\users\nguyen binh\code\gametictactoe\logic.h
+	"defs.h"
+
+1710171531 c:\users\nguyen binh\code\gametictactoe\defs.h
+
+1710231225 c:\users\nguyen binh\code\gametictactoe\graphic.h
+	"logic.h"
+	<SDL.h>
+	<SDL_image.h>
+	"defs.h"
+	<bits/stdc++.h>
+
+1711900942 source:c:\users\nguyen binh\documents\github\ltnc_23021480\gametictactoe\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"logic.h"
+	"defs.h"
+	"graphic.h"
+
+1710199834 c:\users\nguyen binh\documents\github\ltnc_23021480\gametictactoe\logic.h
+	"defs.h"
+
+1710171531 c:\users\nguyen binh\documents\github\ltnc_23021480\gametictactoe\defs.h
+
+1710231225 c:\users\nguyen binh\documents\github\ltnc_23021480\gametictactoe\graphic.h
+	"logic.h"
+	<SDL.h>
+	<SDL_image.h>
+	"defs.h"
+	<bits/stdc++.h>
+

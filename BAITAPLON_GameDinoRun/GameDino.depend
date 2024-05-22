@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1716284307 source:c:\laptrinhc++\gamedino\main.cpp
+	"graphics.h"
+	"background.h"
+	"dino.h"
+	"enemy.h"
+	"collision.h"
+	"music.h"
+	"text.h"
+	"highScore.h"
+
+1716268676 c:\laptrinhc++\gamedino\graphics.h
+	<SDL.h>
+	<SDL_mixer.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	"defs.h"
+	<vector>
+	<fstream>
+	<bits/stdc++.h>
+
+1716263107 c:\laptrinhc++\gamedino\defs.h
+
+1716179082 c:\laptrinhc++\gamedino\background.h
+	"graphics.h"
+	"defs.h"
+
+1716265585 c:\laptrinhc++\gamedino\dino.h
+	"defs.h"
+	"music.h"
+	"graphics.h"
+
+1716264047 c:\laptrinhc++\gamedino\enemy.h
+
+1716178860 c:\laptrinhc++\gamedino\collision.h
+
+1716266011 c:\laptrinhc++\gamedino\music.h
+	<SDL_mixer.h>
+
+1716259190 c:\laptrinhc++\gamedino\text.h
+	<SDL_ttf.h>
+	"graphics.h"
+	"defs.h"
+	<bits/stdc++.h>
+	"highScore.h"
+
+1716258652 c:\laptrinhc++\gamedino\highscore.h
+

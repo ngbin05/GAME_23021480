@@ -43,3 +43,21 @@
 	<SDL_image.h>
 	"def.h"
 
+1716160319 source:c:\users\nguyen binh\documents\github\ltnc_23021480\event_keyboard\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	"def.h"
+	"graphics.h"
+
+1709281878 c:\users\nguyen binh\documents\github\ltnc_23021480\event_keyboard\def.h
+
+1716159994 c:\users\nguyen binh\documents\github\ltnc_23021480\event_keyboard\graphics.h
+	<SDL.h>
+	<SDL_image.h>
+	"def.h"
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+
